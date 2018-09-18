@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+.listing1, .listing2, .listing3 {
+    width: 454px;
+    margin: 15px auto;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.banner h2 {
+    background: #005a81;
+    display: block;
+    margin: 0;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.banner img{
+    width: 100%;
+}
+.items {
+    float: left;
+    width: 100%; 
+}
+.items ul{
+    margin: 0;
+    padding: 0;
+}
+.items ul li{
+    list-style: none
+}
+.items ul li a {
+      float: left;
+    width: 94.8%;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 20px 10px; 
+    border: 2px solid #022f42;
+    background: #edf0f2;
+    transition: all ease-in-out .2s;
+    margin-top: -4px;
+}
+.items ul li a:hover {  
+    color: #022f42;
+    padding: 20px 10px; 
+    border: 2px solid #022f42;
+    background: #fff;
+}
+.items ul li a span span{
+    color: #005a81; 
+    font-weight: 300;
+}
+.items ul li a span strong{
+    color: #005a81;
+    font-size: 24px;
+    font-weight: 700;
+}
+span.left {
+    font-size: 20px;
+    color: #002d41;
+}
+span.right {
+    float: right;
+    font-size: 30px;
+        line-height: 22px;
+}
+ 
+span.right i {
+    font-size: 46px;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #768D99
+}
+
+
+/*listing2 css*/
+.listing2 .banner img {
+    width: 50.09%;
+    float: left;
+    height: 100px;
+}
+.listing2 .banner h2 {
+       width: 41.1%;
+    float: left;
+    height: 58px;
+    padding-top: 36px;
+}
